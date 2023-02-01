@@ -12,14 +12,14 @@ function Card(props) {
                 <div className="reviews">
                     <img src={star} alt="" className="star"/>
                     <p className="mark">{props.mark}</p>
-                    <p className="number-reviews">{props.reviews}</p>
+                    <p className="number-reviews">({props.reviews}) · </p>
                     <p className="country">{props.country}</p>
                 </div>
                 <div className="description">
                     {props.description}
                 </div>
                 <div className="price">
-                    <h5>From {props.price} </h5>
+                    <h5>From ${props.price} </h5>
                     <p> / person</p>
                 </div>
             </div>

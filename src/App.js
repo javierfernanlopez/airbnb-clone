@@ -15,26 +15,26 @@ function App() {
         <Card 
           img={swimmer}
           mark="5.0"
-          reviews="(6) ·"
+          reviews={6}
           country=" USA"
           description="Life lessons with Zaferes"
-          price="136$ "
+          price={136}
         />
                 <Card 
           img={wedding}
           mark="5.0"
-          reviews="(6) ·"
+          reviews={6}
           country=" USA"
           description="Life lessons with Zaferes"
-          price="136$ "
+          price={56}
         />
                 <Card 
           img={bike}
           mark="5.0"
-          reviews="(6) ·"
+          reviews={6}
           country=" USA"
           description="Life lessons with Zaferes"
-          price="136$ "
+          price={32}
         />
       </div>
 

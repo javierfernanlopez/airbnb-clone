@@ -43,3 +43,7 @@
     align-items: center;
     font-size: 14px;
 }
+
+.price > h5 {
+    padding-top: 3px;
+}
