@@ -1,0 +1,28 @@
+.photos{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.div--photos{
+    max-width: 700px;
+}
+
+.tittles{
+    padding-left: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.tittles > h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.tittles > h4 {
+    font-size: 18px;
+    font-weight: 300;
+    width: 60%;
+    line-height: 110%;
+    padding-top: 16px;
+    color: #222222;
+}

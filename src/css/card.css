@@ -1,0 +1,45 @@
+.card{
+    font-family: 'Poppins', sans-serif;
+
+    padding: 30px 15px;
+}
+
+.div--photo{
+    width: 200px;
+}
+
+.reviews{
+    display: flex;
+
+    font-size: 13px;
+    font-weight: light;
+}
+
+.star{
+    width: 13px;
+    height: 13px;
+    margin-top: 2px;
+}
+
+.mark{
+    padding-left: 3px;
+}
+
+
+.number-reviews,
+.country{
+    color: #918E9B;
+    padding-left: 3px;
+}
+
+.description{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 2px 0px;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}

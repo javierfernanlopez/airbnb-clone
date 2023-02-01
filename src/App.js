@@ -1,23 +1,43 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Card from "./components/Card";
+import swimmer from "./images/image12.png";
+import wedding from "./images/wedding1.png";
+import bike from "./images/bike1.png"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Hero />
+      <div className="cards">
+        <Card 
+          img={swimmer}
+          mark="5.0"
+          reviews="(6) ·"
+          country=" USA"
+          description="Life lessons with Zaferes"
+          price="136$ "
+        />
+                <Card 
+          img={wedding}
+          mark="5.0"
+          reviews="(6) ·"
+          country=" USA"
+          description="Life lessons with Zaferes"
+          price="136$ "
+        />
+                <Card 
+          img={bike}
+          mark="5.0"
+          reviews="(6) ·"
+          country=" USA"
+          description="Life lessons with Zaferes"
+          price="136$ "
+        />
+      </div>
+
     </div>
   );
 }
