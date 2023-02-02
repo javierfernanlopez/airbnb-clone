@@ -1,12 +1,12 @@
 import React from "react";
 import "../css/hero.css";
-import photos from "../images/Group77.png"
+
 
 function Hero(){
     return(
         <>
             <div className="photos">
-                <img src={photos} alt="Photos" width={"80%"} className="div--photos"/>
+                <img src="../images/Group77.png" alt="Photos" width={"80%"} className="div--photos"/>
             </div>
             <div className="tittles">
                 <h1>Online Experiences</h1>
